@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#vorlage {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  opacity: 0.9;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 130px 800px 1fr;
+}
+nav {
+  grid-area: 1 / 2 / 2 /3;
+  color: black;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #1f82cc;
+}
